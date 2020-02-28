@@ -58,10 +58,53 @@ var listElement=ulElement[0].getElementsByTagName("li")
 alert(listElement[0].innerHTML) */
 
 // accessing element by using css query
-var pElement = document.querySelector("p")
+/* var pElement = document.querySelector("p")
 alert(pElement.innerHTML)
  
 var pElements = document.querySelectorAll("div p")
 for(var i=0;i<pElements.length;i++){
     alert(pElements[i].innerHTML)
 }
+ */
+/* var divElements=document.querySelectorAll("ul li")
+for (var i=0;i<divElements.length;i++){
+    alert(divElements[i].innerHTML)
+} */
+
+/* var ulElement=document.getElementsByTagName("ul")[0]
+alert("") */
+/* document.write("<br>"+{name:'anoop',age:10}.constructor)
+document.write("<br>"+function() {}.constructor+"<br>")
+document.write("It is boolean value true and converted into number : "+Number(true))
+d=new Date()
+document.write("<br>"+ Date() +"<br>")
+document.write((10 >>> 0).toString(2)+"<br>")
+document.write(parseInt(11110001, 2).toString(10)+"<br>") */
+//var ulElement=document.getElementsByTagName("ul")[0]
+/* alert("Node name : "+ulElement.nodeName)
+alert("Node type : "+ulElement.nodeType)
+
+// get parent node
+alert("Node parent : "+ulElement.parentNode.nodeName)
+
+//get child nodes
+
+alert("Node Child Nodes : "+ulElement.childNodes)
+
+// get the length of child nodes
+ alert("Child node length : "+ ulElement.childNodes.length) */
+/*  var ulChildNodes=ulElement.childNodes
+ for(var i=0;i<ulChildNodes.length;i++){
+     if(ulChildNodes[i].nodeType == 1){
+         alert(ulChildNodes[i].innerHTML)
+     }
+ } */
+
+/* var ulElement=document.getElementById("my-list")
+
+var newlistElement = document.createElement("li")
+
+var listItem=document.createTextNode("This is new iteam")
+newlistElement.appendChild(listItem)
+
+ulElement.appendChild(newlistElement) */
